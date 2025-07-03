@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Workspace Setup
+Exec=/home/!!{USER}!!/.local/bin/setup-workspaces.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true

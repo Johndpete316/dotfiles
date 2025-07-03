@@ -1,0 +1,16 @@
+{
+  "name": "SSH Tunnel Monitor",
+  "description": "Monitor SSH tunnel status in the top panel",
+  "uuid": "tunnel-monitor@drillchan.net",
+  "shell-version": [
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45"
+  ],
+  "version": 1,
+  "url": "",
+  "settings-schema": ""
+}

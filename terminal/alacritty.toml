@@ -1,0 +1,6 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/rose_pine.toml"
+]
+[window]
+opacity = 0.99

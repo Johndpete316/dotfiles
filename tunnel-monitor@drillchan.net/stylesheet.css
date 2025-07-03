@@ -1,0 +1,54 @@
+/* SSH Tunnel Monitor Extension Stylesheet */
+
+.tunnel-active {
+    color: #4CAF50; /* Green for active */
+}
+
+.tunnel-inactive {
+    color: #f44336; /* Red for inactive */
+}
+
+.tunnel-status-label {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-left: 4px;
+    transition: color 0.3s ease;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* Remove all shadows from icons and transitions */
+.tunnel-active,
+.tunnel-inactive {
+    transition: color 0.3s ease;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
+
+/* Remove any shadows from the button container and icon */
+.panel-status-menu-box {
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.system-status-icon {
+    text-shadow: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+    -gtk-icon-shadow: none !important;
+}
+
+/* Target the specific tunnel monitor button */
+#panel .panel-button {
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* More specific targeting */
+.panel-status-menu-box .system-status-icon,
+.panel-status-menu-box .tunnel-status-label {
+    text-shadow: none !important;
+    box-shadow: none !important;
+    filter: none !important;
+}
