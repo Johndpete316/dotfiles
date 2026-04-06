@@ -1,0 +1,11 @@
+# NEVER commit private keys
+id_ed25519
+*.key
+*.pem
+
+# Fish compiled functions (auto-generated)
+.config/fish/functions/__*
+.config/fish/completions/
+
+# Cache / generated files
+.config/fish/fish_variables
