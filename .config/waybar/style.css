@@ -24,6 +24,7 @@ window#waybar.hidden {
 #idle_inhibitor,
 #pulseaudio,
 #pulseaudio-slider,
+#battery,
 #network,
 #language {
   color: #161320;
@@ -154,6 +155,27 @@ window#waybar.hidden {
 
 #pulseaudio-slider slider {}
 
+
+#battery {
+  background: #FAE3B0;
+}
+
+#battery.charging,
+#battery.plugged {
+  background: #ABE9B3;
+}
+
+#battery.warning {
+  background: #F8BD96;
+}
+
+#battery.critical:not(.charging) {
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 
 #network {
   background: #CBA6F7;

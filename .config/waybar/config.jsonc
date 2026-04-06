@@ -23,6 +23,7 @@
     "idle_inhibitor",
     "pulseaudio/slider",
     "pulseaudio",
+    "battery",
     "network"
   ],
   /* === Modules Left === */
@@ -110,6 +111,19 @@
         ""
       ]
     }
+  },
+  "battery": {
+    "states": {
+      "warning": 20,
+      "critical": 10
+    },
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% 󰂄",
+    "format-plugged": "{capacity}% 󰚥",
+    "format-full": "Full 󰁹",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "tooltip-format": "{timeTo}",
+    "interval": 30
   },
   "network": {
     "format": "{ifname}",
